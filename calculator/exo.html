@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+ 
+  <div id="box">
+    <input type="text" id="screen" placeholder="input">
+    <div id="but">
+      <button id="button" value="1" onclick="append(1)">1</button>
+      <button id="button" onclick="append(2)">2</button>
+      <button id="button"onclick="append(3)">3</button>
+      <button id="button"onclick="append('+')">+</button>
+      
+      <button id="button"onclick="append(4)">4</button>
+      <button id="button"onclick="append(5)">5</button>
+      <button id="button"onclick="append(6)">6</button>
+      <button id="button"onclick="append('-')">-</button>
+      <button id="button"onclick="append(7)">7</button>
+      <button id="button"onclick="append(8)">8</button>
+      <button id="button"onclick="append(9)">9</button>
+      <button id="button"onclick="append('/')">/</button>
+      <button id="button"onclick="append('*')">*</button>
+      <button id="button"onclick="append('.')">.</button>
+      <button onclick="clearScreen()">C</button>
+
+      <button id="button"onclick="total()">=</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
